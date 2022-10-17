@@ -95,7 +95,7 @@ void display_character(char c){
 		{3, 1, 1, 3},
 		{3, 1, 3, 3},
 		{3, 3, 1, 1}
-};
+	};
 	int index = 0;
 	while (index < 4 && morse_codes[k][index]){
 		LED_PORT |= _BV(LED);
@@ -127,7 +127,7 @@ int main()
     	display_space(2);
     }
     else{
-   		display_space(4);
+		display_space(4);
     }
   }
 }
